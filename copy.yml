@@ -3,7 +3,7 @@
   tasks:
     - name: Upload sample1.txt file
       copy:
-        src: ./config/sample1.txt
+        src: ./sample1.txt
         dest: ./
         mode: 0755
       become: true
