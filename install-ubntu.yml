@@ -1,0 +1,9 @@
+- name: Install apachy2 in ubntu
+  hosts: all
+  tasks:
+    - name: Install  apps server node1
+      apt:
+        name: apachy2 
+        state: present
+        update_cache: yes
+      become: true

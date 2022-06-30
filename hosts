@@ -1,0 +1,6 @@
+[master]
+master ansible_host=ec2-54-174-94-160.compute-1.amazonaws.com ansible_connection=local
+
+[webservers]
+web1 ansible_host=ec2-3-82-244-154.compute-1.amazonaws.com
+web2 ansible_host=ec2-3-92-133-151.compute-1.amazonaws.com
