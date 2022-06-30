@@ -5,10 +5,10 @@
       package:
         name: "httpd"
         state: present
+       
 
     - name: Starting httpd services
       service: 
         name: "httpd"
         state: started
         enabled: yes
-        become: yes
